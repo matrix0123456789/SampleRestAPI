@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRestAPI", "SampleRestAPI\SampleRestAPI.csproj", "{300776AB-E9FE-4C9C-87E7-051BB5F81D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{3DC84E28-E679-409B-9655-777D9B91450C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{300776AB-E9FE-4C9C-87E7-051BB5F81D09} = {300776AB-E9FE-4C9C-87E7-051BB5F81D09}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300776AB-E9FE-4C9C-87E7-051BB5F81D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300776AB-E9FE-4C9C-87E7-051BB5F81D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300776AB-E9FE-4C9C-87E7-051BB5F81D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300776AB-E9FE-4C9C-87E7-051BB5F81D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC84E28-E679-409B-9655-777D9B91450C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC84E28-E679-409B-9655-777D9B91450C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC84E28-E679-409B-9655-777D9B91450C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC84E28-E679-409B-9655-777D9B91450C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88180259-D3DE-4FF4-85D5-78D2C90CBF3B}
+	EndGlobalSection
+EndGlobal
